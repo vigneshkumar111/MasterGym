@@ -2,6 +2,7 @@ body{
 
     background-repeat: no-repeat;
     background-size: cover;
+    background-size: 100%;
 }
 .top{ 
       padding-top: -15px;
@@ -133,6 +134,11 @@ a{
 .gallery> div:hover{
     flex: 15;
 }
-
+.get{
+    table{
+        text-shadow: 2px 1px darkcyan;
+        font-style: italic;
+    }
+}
 
 
