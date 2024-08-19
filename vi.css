@@ -55,16 +55,18 @@ a{
     
 }
 .link :hover{
- color:white ;
+ color:rgba(61, 179, 7, 0.822) ;
 }
+
 .link{
    text-align:right;
       a{
+        scroll-behavior: smooth;
     display: inline;
     padding: 2px;
     margin: 20px;
     font-size:medium;
-    color:rgb(247, 238, 238);
+    color:rgba(241, 0, 0, 0.555);
       }
     } 
     .shadow{
