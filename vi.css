@@ -1,0 +1,137 @@
+body{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top{ 
+      padding-top: -15px;
+     h1{
+ color:whitesmoke;
+        font-size:35px;
+    }
+       h2{
+        color:white;
+        font-size:x-large;
+        font-family:cursive
+        
+    }
+}
+img{
+    float: top;
+
+}
+td{
+    color: white;
+    font-family: cursive;
+    }
+h1{
+    color:white;
+    font-family: fantasy;
+}
+h2{
+    color: white;
+}
+img{
+    padding: auto;
+    background-color: white;
+}
+a{
+    color: white;
+}
+.vk{
+    h2{
+         margin-right: 50pX; 
+        font-family: 'Times New Roman', Times, serif;
+      color:whitesmoke  ;
+    }
+    }
+  .vk2
+  {  
+    h2,h3,h1{
+      margin-left: 10px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;    
+    }
+    
+}
+.link :hover{
+ color:white ;
+}
+.link{
+   text-align:right;
+      a{
+    background-color:rgba(214, 36, 36, 0.815);
+    display: inline;
+    padding: 2px;
+    margin: 20px;
+    font-size:medium;
+    color:rgb(247, 238, 238);
+      }
+    } 
+    .shadow{
+        box-shadow:1px 1px 20px black;
+    }
+.about
+{
+    
+    table{
+        color:black;
+        font-family:sans-serif;
+        font-size:x-large; 
+        flex-wrap: wrap;
+    }
+}
+.gallery
+{
+    display:flex;
+    gap: 1rem;
+    height: 500px;
+    width: 1000px;
+ }
+.gallery>div{
+    flex: 1;
+    transition: all 1s;
+}
+ .gallery>div:nth-child(1){
+    background:url("leg.jpg");
+    background-position: center;
+    background-size: cover;   
+ }   
+ .gallery>div:nth-child(2){
+    background:url("cheast.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+.gallery>div:nth-child(3){
+    background:url("machine.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.gallery>div:nth-child(4){
+    background:url("back.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.gallery>div:nth-child(5){
+    background:url("workout.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.gallery>div:nth-child(6){
+    background:url("workout2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.gallery>div:nth-child(7){
+    background:url("workout3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.gallery> div:hover{
+    flex: 15;
+}
+
+
+
